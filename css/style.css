@@ -7,9 +7,35 @@ body{
 
 }
 
+img{
+    width: 100%;
+}
+
 .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
+}
+
+section{
+    padding: 50px, 0;
+}
+
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+
+#span-design{
+    background-color: red;
+    height: 5px;
+    width: 160px;
+    display: inline-block;
+    border-radius: 10px;
 }
 
 header{
@@ -60,6 +86,7 @@ nav ul li a{
     font-weight: 600;
     font-size: 18px;
     transition: all 0.2s linear;
+    font-weight: bold;
 
 }
 
@@ -95,13 +122,7 @@ nav ul li a:hover{
     margin: 0 0 10px 0;
 
 }
-.banner span{
-    background-color: red;
-    height: 5px;
-    width: 160px;
-    display: inline-block;
-    border-radius: 10px;
-}
+
 .banner h1{
     font-size: 70px;
 }
@@ -111,7 +132,7 @@ nav ul li a:hover{
     padding: 15px 30px;
     font-size: 20px;
     letter-spacing: 2px;
-    border: 1px solid rgb(207, 46, 46);
+    border: 1px solid rgb(109, 84, 84);
     border-radius: 35px;
     transition: all 0.3s linear;
 
@@ -126,5 +147,182 @@ nav ul li a:hover{
     letter-spacing: 3px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 35px;
+
+}
+
+
+/* upcomming event section */
+
+.event-main{
+    text-align: center;
+    margin-top: 50px;
+}
+.event-main h2{ 
+    margin: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.event{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.event-box{
+    width: 50%;
+    margin: 20px;
+}
+.event-box img{
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.158) 15px 15px 2px;
+
+}
+.event-box h4{
+    font-size: 20px;
+    margin: 25px 0 20px 0;
+    text-transform: capitalize;
+
+}
+.event-box p{}
+
+.event-box a{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.event-box a:hover{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* explore section start */
+
+.explore-section{
+    background-image: url(../images/explore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+    background-color: rgba(22, 166, 250, 0.459);
+    color: white;
+    margin: 50px 0;
+    background-attachment: fixed;
+}
+.explore-main{
+    display: flex;
+    padding: 80px 0;
+}
+.explore{
+    width: 50%;
+}
+.explore h1{
+    margin-bottom: 0;
+}
+.explore p{
+    margin: 40px 0;
+}
+.explore a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(22, 166, 250, 0.459);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: 1px solid rgba(22, 166, 250, 0.459);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+}
+
+.explore a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: rgba(22, 166, 250, 0.459);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    border: 1px solid rgba(22, 166, 250, 0.459);
+    border-radius: 10px;
+}
+
+
+/* tour section start*/
+
+
+
+.tour-main{
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+.tour{
+    padding: 15px;
+    width: 33.33%;
+}
+.tour h3{
+    margin: 0;
+}
+.tour p{
+    margin: 30px 0;
+}
+.tour a{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+}
+
+.tour a:hover{
+    color: red;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.small{
+    height: 300px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+.large{
+    height: 400px;
+    object-fit: cover;
+    margin: 0 0 20px 0;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    padding: 60px;
+    text-align: center;
+}
+
+.fab{
+    font-size: 30px;
+    color: white;
+    margin: 15px;
+    transition: all 0.3s linear;
+
+}
+
+.fab:hover{
+    font-size: 40px;
+    color: white;
+    margin: 15px;
 
 }
